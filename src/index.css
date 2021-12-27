@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.btn-search{
+  margin-left: 15px;
+}
+
+Form{
+  display: flex;
+}
+
+.aboutt{
+  margin-top: 100px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.carousel-item img{
+  width: 100vw;
+  height: 100vh;  
+}
+
+.sr-only{
+  opacity: 0;
+}
+
+.AboutUS{
+  margin-top: 70px;
+}
+
+.Contacts-wrapper{
+  margin-top: 70px;
+}
+
+.Blog-wrapper{
+  margin-top: 70px;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  background-image: none;
+}
+
+@media (max-width:768px) {
+  .carousel-item img{
+    width: 100vw;
+    height: 70vh;  
+  }
+}
